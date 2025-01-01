@@ -272,10 +272,7 @@ class DTrainer():
         plt.show()
         plt.savefig(os.path.join(self.result_path, "graphs", f"loss_ep{self.current_epoch}.png"))
         plt.close()
-        
-    
-        
-                                      
+                          
     ## ------------------------
     ## 
     ## METHODS TO BE OVERLOADED

@@ -2,7 +2,6 @@ import numpy
 import torch
 from torch.utils.data import DataLoader, Dataset
 
-
 class DDataManager:
     def __init__(self, dataset, split=[0.7, 0.1, 0.2], augment=False):
         if isinstance(dataset, list):
